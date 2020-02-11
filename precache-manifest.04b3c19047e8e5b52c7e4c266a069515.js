@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3a92e0150d2396ec6b11d2b160ba66b",
+    "revision": "bf7173c3c4fbfe12eed0f09e3b5b26cc",
     "url": "/miabridal/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/miabridal/static/css/2.056d2280.chunk.css"
   },
   {
-    "revision": "e496981a0f0aa79e0f8b",
-    "url": "/miabridal/static/css/main.25791f35.chunk.css"
+    "revision": "60cb613aac691c27f227",
+    "url": "/miabridal/static/css/main.f28c9577.chunk.css"
   },
   {
     "revision": "4d6802a6b3f2eebdf880",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/miabridal/static/js/2.059f5a5d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e496981a0f0aa79e0f8b",
-    "url": "/miabridal/static/js/main.eb1796be.chunk.js"
+    "revision": "60cb613aac691c27f227",
+    "url": "/miabridal/static/js/main.31360367.chunk.js"
   },
   {
     "revision": "2a3c93294028200e2baa",

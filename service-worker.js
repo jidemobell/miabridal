@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/miabridal/precache-manifest.61543d3bb5cb27d98ff90e21b57af8aa.js"
+  "/miabridal/precache-manifest.04b3c19047e8e5b52c7e4c266a069515.js"
 );
 
 self.addEventListener('message', (event) => {
