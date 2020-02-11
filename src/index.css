@@ -4,7 +4,10 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
+	/* background: #FDFDFD; */
+	/* background: #C8E6F5; */
+	/* background: rgba(200, 230, 245, 0.815); */
 }
 
 code {

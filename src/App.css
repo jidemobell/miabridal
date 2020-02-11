@@ -1,38 +1,132 @@
+@import 'common.css';
+
 .App {
-  text-align: center;
+	text-align: center;
+	min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.top {
+	padding: 50px 100px;
+	/* min-height: 100vh; */
+	align-items: stretch;
+	flex: 1 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#brand{
+	width: 50px;
+	margin-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header{
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+
+	transition: background 0.5s ease; 
+	padding: 0 10px;
 }
 
-.App-link {
-  color: #61dafb;
+header:hover{
+	background: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-navs{
+ justify-content: space-evenly;
+ padding-top: 15px;
+}
+
+.app-navs > li{
+	text-decoration: none;
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+.hero{
+	display: flex;
+	height: 100%;
+	margin-top: 50px;
+  background: white;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid rgba(128, 128, 128, 0.089);
+	box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.226);
+	/* flex-grow: 1; */
+}
+
+/* header, .hero, footer{
+	flex-shrink: 0;
+} */
+
+#design{
+  width: 25%;
+}
+
+.hero-message{
+	flex-grow: 1;
+	/* margin-left: 90px; */
+	background: #E4E5E2;
+}
+
+hr{
+	width: 100px;
+	height: 0px;
+	margin: 10px 15px;
+}
+
+.hero-message > a{
+	background: rgba(0, 0, 0, 0.863);
+	color: white;
+	padding: 20px 40px;
+	font-weight: 500;
+	transition: background ease-in-out 1s;
+}
+
+.hero-message > a:hover{
+   background: rgba(0, 0, 0, 0.705);
+}
+
+
+.hero-message > p {
+	font-weight: bold;
+}
+
+.hero-style{
+  line-height: initial;
+}
+
+#signature{
+	margin-top: 20px;
+}
+
+
+footer{
+	border-top: solid 1px rgba(0, 0, 0, 0.178);
+	flex-shrink: 0;
+	margin: 0px 100px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#copyright{
+	
+	margin-top: 10px;
+	font-size: 0.7rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+footer nav{
+
+}
+
+.social{
+	width: 30px;
+	margin-top: 5px;
+	margin-left: 15px;
 }
