@@ -13,14 +13,17 @@ function App() {
       <section className="top flex-col">
         <header className="flex-row">
           <div>
-            <img src={brand} id="brand" />
+            <img src={brand} id="brand" alt="brand" />
           </div>
           <nav className="flex-row app-navs sanser">
             <li className="flex-row hvr-grow">
               <span className="first-border">Home</span>
             </li>
             <li className="flex-row hvr-grow">
-              <span className="first-border">Appointments</span>
+              <span className="first-border">Gallery</span>
+            </li>
+						<li className="flex-row hvr-grow">
+              <span className="first-border">About</span>
             </li>
             <li className="flex-row hvr-grow">
               <span className="first-border">Contact</span>
@@ -29,7 +32,7 @@ function App() {
         </header>
         {/* app hero */}
         <section className="hero flex-row">
-          <img src={design} id="design" />
+          <img src={design} id="design" alt="design" />
 
           <div className="flex-col hero-message center">
             <span className="flex-row">
@@ -38,9 +41,9 @@ function App() {
               <hr />
             </span>
             <p> CUSTOM BRIDAL </p>
-            <a> BOOK AN APPOINTMENT </a>
+            <a href="http://fakelink"> BOOK AN APPOINTMENT </a>
             <div>
-              <img src={signature} id="signature" className="shrink" />
+              <img src={signature} id="signature" className="shrink" alt="signature" />
             </div>
           </div>
         </section>
