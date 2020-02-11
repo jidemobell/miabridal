@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25791f35.chunk.css",
+    "main.js": "/static/js/main.057196b6.chunk.js",
+    "main.js.map": "/static/js/main.057196b6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.39d3cbc1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.39d3cbc1.js.map",
+    "static/css/2.3ad756a6.chunk.css": "/static/css/2.3ad756a6.chunk.css",
+    "static/js/2.059f5a5d.chunk.js": "/static/js/2.059f5a5d.chunk.js",
+    "static/js/2.059f5a5d.chunk.js.map": "/static/js/2.059f5a5d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aa246907e35015f8646435c4a555d404.js": "/precache-manifest.aa246907e35015f8646435c4a555d404.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3ad756a6.chunk.css.map": "/static/css/2.3ad756a6.chunk.css.map",
+    "static/css/main.25791f35.chunk.css.map": "/static/css/main.25791f35.chunk.css.map",
+    "static/js/2.059f5a5d.chunk.js.LICENSE.txt": "/static/js/2.059f5a5d.chunk.js.LICENSE.txt",
+    "static/media/big_sign.png": "/static/media/big_sign.a62b69e5.png",
+    "static/media/cropped-bridals.png": "/static/media/cropped-bridals.540c6e07.png",
+    "static/media/fb.svg": "/static/media/fb.4b48e739.svg",
+    "static/media/ig2.svg": "/static/media/ig2.2295a344.svg",
+    "static/media/remixicon.css": "/static/media/remixicon.e5b755b0.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39d3cbc1.js",
+    "static/css/2.3ad756a6.chunk.css",
+    "static/js/2.059f5a5d.chunk.js",
+    "static/css/main.25791f35.chunk.css",
+    "static/js/main.057196b6.chunk.js"
+  ]
+}
